@@ -103,7 +103,7 @@ const Home: React.FC = () => {
     setShowIntro(false);
   };
 
-  // ✅ Don’t render anything until we’ve checked sessionStorage
+  // ✅ Don’t render anything until we’ve checked sessionStorage~~
   if (!hasCheckedIntro) return null;
 
   // ✅ Show intro only once
