@@ -66,7 +66,7 @@ const Products: React.FC = () => {
         "/products/gov_pds_2.jpeg",
       ],
       description:
-        "LDPE liners provide flexible, moisture-resistant protection for packaging, agriculture, and storage applications.",
+        "Government PDS (Public Distribution System) packaging rolls are typically made from plastic-based, multilayered, and heat-sealed laminated films. The specific materials used can vary, but the main goal is to protect food grains and other essential commodities from moisture, pests, and contamination during transport and storage. These rolls are custom-made for the filling and sealing machines used by different government agencies.",
     },
     {
       id: "6",
