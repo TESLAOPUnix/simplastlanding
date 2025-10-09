@@ -13,17 +13,17 @@ const Products: React.FC = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState<{ [key: string]: number }>({});
 
   const products: (Product & { images: string[] })[] = [
-    {
+     {
       id: "1",
-      name: `HDPE & LDPE LINERS`,
+      name: "HDPE SHRINK ROLLS",
       images: [
-        "/products/hdpe_liner_1.jpeg",
-        "/products/hdpe_liner_2.jpeg",
-        "/products/hdpe_liner_3.jpeg",
-        "/products/ldpe_liner_1.jpeg",
+        "/products/hdpe_shrink_1.jpeg",
+        "/products/hdpe_shrink_2.jpeg",
+        "/products/hdpe_shrink_3.jpeg",
+        "/products/hdpe_shrink_4.jpeg",
       ],
       description:
-        "HDPE (High-Density Polyethylene) liners are rigid, durable, and resistant to tears and punctures, making them ideal for heavy-duty applications like large ponds, reservoirs, landfills, and chemical containment. In contrast, LDPE (Low-Density Polyethylene) liners are more flexible, malleable, and less expensive, though less durable, and are better suited for smaller ponds, irregular shapes, and situations where cost-effectiveness is a priority.",
+        "HDPE shrink film provides strong, moisture-resistant wrapping for industrial packaging and pallet loads.",
     },
     {
       id: "2",
@@ -37,15 +37,15 @@ const Products: React.FC = () => {
     },
     {
       id: "3",
-      name: "HDPE SHRINK ROLLS",
+      name: `HDPE & LDPE LINERS`,
       images: [
-        "/products/hdpe_shrink_1.jpeg",
-        "/products/hdpe_shrink_2.jpeg",
-        "/products/hdpe_shrink_3.jpeg",
-        "/products/hdpe_shrink_4.jpeg",
+        "/products/hdpe_liner_1.jpeg",
+        "/products/hdpe_liner_2.jpeg",
+        "/products/hdpe_liner_3.jpeg",
+        "/products/ldpe_liner_1.jpeg",
       ],
       description:
-        "HDPE shrink film provides strong, moisture-resistant wrapping for industrial packaging and pallet loads.",
+        "HDPE (High-Density Polyethylene) liners are rigid, durable, and resistant to tears and punctures, making them ideal for heavy-duty applications like large ponds, reservoirs, landfills, and chemical containment. In contrast, LDPE (Low-Density Polyethylene) liners are more flexible, malleable, and less expensive, though less durable, and are better suited for smaller ponds, irregular shapes, and situations where cost-effectiveness is a priority.",
     },
     {
       id: "4",
