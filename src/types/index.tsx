@@ -1,9 +1,10 @@
 export interface Product {
   id: string;
   name: string;
-  image: string;
+  image?: string; // 👈 make it optional
   description: string;
 }
+
 
 export interface NavItem {
   name: string;

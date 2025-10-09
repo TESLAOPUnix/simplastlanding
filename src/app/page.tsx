@@ -22,6 +22,8 @@ const Home: React.FC = () => {
   { name: "Client D", logo: "/logos/irctc.jpeg" },
   { name: "Client E", logo: "/logos/marico1.jpeg" },
   { name: "Client F", logo: "/logos/prabhuji.jpeg" },
+   { name: "Client G", logo: "/logos/baileys.jpg" },  
+     { name: "Clien H", logo: "/logos/bud.png" },
 ];
 
   const whyChooseUs = [
@@ -36,12 +38,12 @@ const Home: React.FC = () => {
       description: "Equipped with multilayer, ABA, and monolayer plants to produce precise and consistent results at scale."
     },
     {
-      image: "/company_images/img27.jpeg",
+      image: "/company_images/img20.jpeg",
       title: "Reliable and Timely Delivery",
       description: "We understand downtime costs — our logistics and operations ensure your orders arrive as promised."
     },
     {
-      image: "/company_images/img21.jpeg",
+      image: "/company_images/img12.jpeg",
       title: "Sustainability-Driven Approach",
       description: "We actively minimize our environmental footprint through sustainable materials and efficient processes."
     },
@@ -51,7 +53,7 @@ const Home: React.FC = () => {
       description: "From customization to logistics, our dedicated team ensures a seamless and client-focused experience."
     },
     {
-      image: "/company_images/img29.jpeg",
+      image: "/company_images/img30.jpeg",
       title: "Ethical and Transparent Operations",
       description: "We prioritize integrity, honesty, and transparency — building partnerships based on trust and respect."
     },
@@ -124,7 +126,7 @@ const Home: React.FC = () => {
           className="absolute inset-0 bg-cover bg-center bg-gray-800"
           style={{
             backgroundImage:
-              'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/company_images/img4.jpeg")',
+              'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/company_images/img22.jpeg")',
           }}
         />
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
@@ -255,7 +257,7 @@ const Home: React.FC = () => {
           >
             <div className="w-full h-56 rounded-lg overflow-hidden shadow-sm">
               <Image
-                src="/company_images/img2.jpeg" // Replace with your image in public folder
+                src="/company_images/img12.jpeg" // Replace with your image in public folder
                 alt="Manufacturing facility"
                 width={800} // original image width or desired
                 height={400} // original image height or desired
@@ -264,7 +266,7 @@ const Home: React.FC = () => {
             </div>
             <div className="w-full h-56 rounded-lg overflow-hidden shadow-sm">
               <Image
-                src="/company_images/img3.jpeg"
+                src="/company_images/img18.jpeg"
                 alt="Production line"
                 width={800}
                 height={400}
@@ -353,13 +355,13 @@ const Home: React.FC = () => {
               transition={{ delay: index * 0.1 }}
               className="bg-white p-6 rounded-lg shadow-sm border border-gray-200 text-center hover:shadow-md transition-shadow duration-300"
             >
-              <div className="w-full h-32 rounded-lg overflow-hidden mb-4">
+              <div className="w-full h-40 rounded-lg overflow-hidden mb-4">
                 <Image
                   src={item.image} // should be from public folder e.g. "/images/img1.jpeg"
                   alt={item.title}
-                  width={400} // actual image width
+                  width={600} // actual image width
                   height={200} // actual image height
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
               <h3 className="text-lg font-semibold text-[#2E2E2E] mb-2">{item.title}</h3>
