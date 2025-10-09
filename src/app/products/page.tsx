@@ -51,8 +51,8 @@ const Products: React.FC = () => {
       id: "4",
       name: "MULCH FILMS",
       images: [
-        "/products/mulch_films_1.jpeg",
-        "/products/mulch_films_2.jpeg",
+        "/products/ldpe_bag_1.jpeg",
+        "/products/ldpe_bag_2.jpeg",
         "/products/mulch_films_3.jpeg",
       ],
       description:
@@ -70,10 +70,8 @@ const Products: React.FC = () => {
     },
     {
       id: "6",
-      name: "LDPE SHOP BAGS",
+      name: "LDPE SHOPPING BAGS",
       images: [
-        "/products/ldpe_bag_1.jpeg",
-        "/products/ldpe_bag_2.jpeg",
          "/products/ldpe_bag_3.jpeg",
           "/products/ldpe_bag_4.jpeg",
       ],
