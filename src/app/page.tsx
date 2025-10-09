@@ -48,7 +48,7 @@ const Home: React.FC = () => {
       description: "We actively minimize our environmental footprint through sustainable materials and efficient processes."
     },
     {
-      image: "/company_images/img16.jpeg",
+      image: "/company_images/cus-cen.jpeg",
       title: "Customer-Centric Support",
       description: "From customization to logistics, our dedicated team ensures a seamless and client-focused experience."
     },
