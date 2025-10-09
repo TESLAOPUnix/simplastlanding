@@ -29,10 +29,12 @@ const Footer: React.FC = () => {
               Leading manufacturer of plain and printed polythene films with a monthly capacity of 600 tonnes.
             </p>
             <p className="text-xs text-[#C6A664] font-medium">
-              &quotManufacturers of Plain and Polythene Printed Films&quot
+              Manufacturers of Plain and Polythene Printed Films
             </p>
           </div>
+ 
 
+ 
           {/* Quick Links */}
           <div>
             <h3 className="text-lg font-semibold text-[#C6A664] mb-4">Quick Links</h3>
