@@ -32,7 +32,9 @@ const Footer: React.FC = () => {
               Manufacturers of Plain and Polythene Printed Films
             </p>
           </div>
+ 
 
+ 
           {/* Quick Links */}
           <div>
             <h3 className="text-lg font-semibold text-[#C6A664] mb-4">Quick Links</h3>
