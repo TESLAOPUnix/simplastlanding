@@ -20,6 +20,8 @@ const Home: React.FC = () => {
   { name: "Client B", logo: "/logos/aqd1.jpeg" },
   { name: "Client I", logo: "/logos/rohit_new_1.jpeg" },
   { name: "Client C", logo: "/logos/imerys1.jpeg" },
+   { name: "Client M", logo: "/logos/aplapollo.jpeg" },
+    { name: "Client N", logo: "/logos/shyam.jpeg" },
   { name: "Client D", logo: "/logos/irctc.jpeg" },
   { name: "Client K", logo: "/logos/rohit_new_3.jpeg" },
   { name: "Client E", logo: "/logos/marico1.jpeg" },
@@ -28,7 +30,8 @@ const Home: React.FC = () => {
   { name: "Client F", logo: "/logos/prabhuji.jpeg" },
    { name: "Client G", logo: "/logos/baileys.jpg" },
      { name: "Client H", logo: "/logos/bud.png" },
-    
+   
+
 ];
 
   const whyChooseUs = [
