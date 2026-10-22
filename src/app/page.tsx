@@ -30,6 +30,9 @@ const Home: React.FC = () => {
   { name: "Client F", logo: "/logos/prabhuji.jpeg" },
    { name: "Client G", logo: "/logos/baileys.jpg" },
      { name: "Client H", logo: "/logos/bud.png" },
+     { name: "Client I", logo: "/logos/srmb_logo.jpeg" },
+     { name: "Client J", logo: "/logos/jindal_india_Logo.jpeg" },
+
    
 
 ];
